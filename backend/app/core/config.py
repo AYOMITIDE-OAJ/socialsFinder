@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     BACKEND_CORS_ORIGINS: List[str] = []
     DOMAIN: str = "https://socialsfinderwrapper.onrender.com"
     EMAILS_ENABLED: bool = True
-    PROJECT_NAME: str = "Handle Finder"
+    PROJECT_NAME: str = "SocialsFinder"
     API_V1_STR: str = "/api/v1"
 
     class Config:
