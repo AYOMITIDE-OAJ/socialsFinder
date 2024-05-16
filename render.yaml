@@ -2,7 +2,7 @@ previewsEnabled: true
 services:
   - type: web
     name: handlefinder-backend
-    repo: https://github.com/bnkc/handlefinder.git
+    repo: https://github.com/AYOMITIDE-OAJ/socialsFinder
     region: ohio
     env: python
     plan: starter
