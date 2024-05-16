@@ -41,7 +41,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "https://www.socialsfinderwrapper.onrender.com",
+  "proxy": "https://socialsfinderwrapper.onrender.com",
   "browserslist": {
     "production": [
       ">0.2%",

@@ -71,7 +71,7 @@ const Landing: React.FC = () => {
         setUsername(username => values.username);
         setWebsites([])
         setDisabled(true);
-        const url = new WebSocket(`wss://www.socialsfinderwrapper.onrender.com/api/v1/handles/${values.username}`);
+        const url = new WebSocket(`wss://socialsfinderwrapper.onrender.com/api/v1/handles/${values.username}`);
         url.onopen = () => {
             console.log("connected");
             url.send(values.username);

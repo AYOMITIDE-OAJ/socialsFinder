@@ -12,7 +12,7 @@ class Settings(BaseSettings):
 
     ENV: str = os.environ.get("ENV", "DEV")
     BACKEND_CORS_ORIGINS: List[str] = []
-    DOMAIN: str = "https://socialsfinderwrapper.onrender.com"
+    DOMAIN: str = "https://socialsfinderwrapper.onrender.com/"
     EMAILS_ENABLED: bool = True
     PROJECT_NAME: str = "SocialsFinder"
     API_V1_STR: str = "/api/v1"
