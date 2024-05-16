@@ -107,7 +107,7 @@ const Landing: React.FC = () => {
                 <Header />
                 <div>SocialsFinder is a powerful tool
                     that can be used to find usernames across many <a style={{ textDecoration: 'none', color: '#6699cc' }} href="https://github.com/sherlock-project/sherlock/blob/master/sites.md">social networks</a>.
-                    This project is a wrapper around the <a style={{ textDecoration: 'none', color: '#6699cc' }} href="https://github.com/sherlock-project">Sherlock Project.</a>
+                    This project is a wrapper around the <a style={{ textDecoration: 'none', color: '#6699cc' }} href="https://github.com/sherlock-project">Sherlock SDK.</a>
                 </div>
                 <Formik
                     initialValues={{
